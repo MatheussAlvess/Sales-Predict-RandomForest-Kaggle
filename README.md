@@ -146,7 +146,6 @@ MAE means how much the prediction is wrong, defining upper and lower bounds and 
 
 The table below shows the worst store predictions, explaining that some stores are more difficult to predict sales. The worst_scenario field is calculated by subtracting the MAE from the predictions field and the best_scenario field is calculated by adding the MAE field.
 
-How we can see in table below, the store 292 has a MAPE = 0.60, what means that predicts sales for this store , on average, are 60% distant from the real.
 
 |   store |   predictions |   worst_scenario |   best_scenario |      MAE |     MAPE |
 |--------:|--------------:|-----------------:|----------------:|---------:|---------:|
@@ -156,48 +155,20 @@ How we can see in table below, the store 292 has a MAPE = 0.60, what means that 
 |876|	9214.511315	|222029.050287 |	551989.900145	|3928.105355|	0.303367|
 |722|	9521.673536	|317038.702703 |  482781.874342	|1973.132996|	0.266351|
 
+How we can see in table below, the store 292 has a MAPE = 0.60, what means that predicts sales for this store , on average, are 60% distant from the real.
+
+In the plot below we can see the dispersion of MAPE for each store. On average the MAPE are in 10%, showing that the predictions are adequate.
+
 <p align="center">
   <img src="images/predi.png"/>
 </p>
 
 
-Finally, the table below shows the sum for all stores, as well as the worst and best scenarios:
+Finally, we have the sum for all stores predctions sales for the next six weeks, as well as the worst and best scenarios:
 
 | Scenario       | Values           |
 |:---------------|:-----------------|
 | Next Six Week  | €326,908,867.73  |
 | Worst Scenario | €294,930,500.77  |
 | Best Scenario  | €358,887,234.69  |
-
-
-
-## Results
-
-* Answering questions
-  - The purchase suggestion was created following the solution assumptions.
-  - 4025 homes were suggested for purchase
-  - The total profit is $401,706,161.00 
-  - The profit percentage is 23.60%
-  - Best time to sell is spring and summer or first semester of year
-  - To access remotely, a dashboard was created and deployed using heroku 
-
-## Deploy
-
-- Link: https://analytics-kc-house.herokuapp.com/
-
-<p align="center">
-  <img src="images/i3.jpeg"/>
-</p>
-
-<p align="center">
-  <img src="images/i4.jpeg"/>
-</p>
-
-<p align="center">
-  <img src="images/i1.jpeg"/>
-</p>
-
-<p align="center">
-  <img src="images/i2.jpeg"/>
-</p>
 
