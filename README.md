@@ -123,9 +123,15 @@ To evaluate the performance of the models, cross-validation was considered and t
 |       Model Name          |        MAE CV       |    MAPE CV    |      RMSE CV       |
 |:-------------------------:|:-------------------:|:-------------:|:------------------:|
 | Linear Regression         |  2081.73 +/- 295.63 | 0.30 +/- 0.02 | 2952.52 +/- 468.37 |
-| Lasso Regression          |  2116.38 +/- 341.50 | 0.29 +/- 0.01 | 3057.75 +/- 504.26 |
-| Random Forest Regressor   |  838.23 +/- 218.10  | 0.12 +/- 0.02 | 1257.07 +/- 318.2  |
+| Lasso Regression          |  2112.89 +/- 342.63 |	0.29 +/- 0.01	| 3048.46 +/- 508.15 |
+| Random Forest Regressor   |  836.28 +/- 216.97	| 0.12 +/- 0.02	| 1253.85 +/- 316.02 |
 
+
+Random Forest Regressor had the best error measures. With hyperparameter tuning process, were obteined the following measures:
+
+|    Model Name        |     MAE      |    MAPE    |     RMSE       |
+|:--------------------:|:------------:|:----------:|:--------------:|
+| Random Forest Regressor   |   673.231   |   0.0981   |   971.177      |
 
 0	next_six	€326,908,867.73
 1	worst_scenario	€294,930,500.77
