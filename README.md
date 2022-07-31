@@ -131,11 +131,46 @@ Random Forest Regressor had the best error measures. With hyperparameter tuning 
 
 |    Model Name        |     MAE      |    MAPE    |     RMSE       |
 |:--------------------:|:------------:|:----------:|:--------------:|
-| Random Forest Regressor   |   673.231   |   0.0981   |   971.177      |
+| Random Forest Regressor   |	676.552722 |	0.099234	|1013.124493|
 
-0	next_six	€326,908,867.73
-1	worst_scenario	€294,930,500.77
-2	best_scenario	€358,887,234.69
+
+#### Model residuals analyses
+
+<p align="center">
+ <img src="images/res.png" width="900" height="600">
+</p>
+
+## Business Performance
+
+MAE means how much the prediction is wrong, defining upper and lower bounds and is not sensitive to outliers. MAPE means the percentage that predicted values are different when compared to real ones. 
+
+The table below shows the worst store predictions, explaining that some stores are more difficult to predict sales. The worst_scenario field is calculated by subtracting the MAE from the predictions field and the best_scenario field is calculated by adding the MAE field.
+
+How we can see in table below, the store 292 has a MAPE = 0.60, what means that predicts sales for this store , on average, are 60% distant from the real.
+
+|   store |   predictions |   worst_scenario |   best_scenario |      MAE |     MAPE |
+|--------:|--------------:|-----------------:|----------------:|---------:|---------:|
+|292|	5706.674949	|91452.804544	 |  387907.891153	|3529.227222|	0.605392|
+|909|	10513.258469|	144981.273466|	738132.437896	|7061.323386|	0.476744|
+|550|	6903.650394	|218346.648649 |	361559.984469	|1704.920665|	0.344712|
+|876|	9214.511315	|222029.050287 |	551989.900145	|3928.105355|	0.303367|
+|722|	9521.673536	|317038.702703 |  482781.874342	|1973.132996|	0.266351|
+
+<p align="center">
+  <img src="images/predi.png"/>
+</p>
+
+
+Finally, the table below shows the sum for all stores, as well as the worst and best scenarios:
+
+| Scenario       | Values           |
+|:---------------|:-----------------|
+| Next Six Week  | €326,908,867.73  |
+| Worst Scenario | €294,930,500.77  |
+| Best Scenario  | €358,887,234.69  |
+
+
+
 ## Results
 
 * Answering questions
