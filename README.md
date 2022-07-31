@@ -102,19 +102,29 @@ With thousands of individual managers predicting sales based on their unique cir
 
 #### Numeric - Pearson Correlation
 <p align="center">
-  <img src="images/corr.png"/>
+ <img src="images/corrn.png" width="900" height="600">
 </p>
 
 
+#### Categoric - Cramer V
+
+<p align="center">
+ <img src="images/corrc.png" width="900" height="600">
+</p>
 
 
+## Machine Learning Models
+
+The following machine learning models were considered for sales prediction: Linear Regression, Lasso Regression and Random Forest Regressor.
+
+To evaluate the performance of the models, cross-validation was considered and the error measures were: the Mean Absolute Error (MAE), the Mean Absolute Percentage Error (MAPE) and the Root Mean Squared Error (RMSE). The average cross-validation error as well their respective standard deviation are ilustrated in the table below:
 
 
-
-
-
-
-
+|       Model Name          |        MAE CV       |    MAPE CV    |      RMSE CV       |
+|:-------------------------:|:-------------------:|:-------------:|:------------------:|
+| Linear Regression         |  2081.73 +/- 295.63 | 0.30 +/- 0.02 | 2952.52 +/- 468.37 |
+| Lasso Regression          |  2116.38 +/- 341.50 | 0.29 +/- 0.01 | 3057.75 +/- 504.26 |
+| Random Forest Regressor   |  838.23 +/- 218.10  | 0.12 +/- 0.02 | 1257.07 +/- 318.2  |
 
 
 0	next_six	€326,908,867.73
