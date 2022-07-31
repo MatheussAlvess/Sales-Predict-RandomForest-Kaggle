@@ -8,10 +8,6 @@
 </p>
 
 
-
-
-
-
 ## Understanding Business Questions 
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently,
@@ -99,7 +95,7 @@ With thousands of individual managers predicting sales based on their unique cir
 |H7          | False        | High        |
 |H8          | True         | Medium      |
 |H9          | True         | Low         |
-|H10         | False        | Medium        |
+|H10         | False        | Medium      |
 
 
 ## Correlation
