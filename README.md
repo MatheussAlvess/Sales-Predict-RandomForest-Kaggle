@@ -105,6 +105,21 @@ With thousands of individual managers predicting sales based on their unique cir
   <img src="images/corr.png"/>
 </p>
 
+
+
+
+
+
+
+
+
+
+
+
+
+0	next_six	€326,908,867.73
+1	worst_scenario	€294,930,500.77
+2	best_scenario	€358,887,234.69
 ## Results
 
 * Answering questions
