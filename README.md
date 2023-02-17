@@ -140,7 +140,7 @@ Random Forest Regressor had the best error measures. With hyperparameter tuning 
  <img src="images/res.png" width="900" height="600">
 </p>
 
-We can observe in the plots that the residuals do not show patterns of asymmetry or that contradict the assumption of normality.
+We can observe in the plots that the residuals do not show patterns of asymmetry or that contradict the assumption of normality. In this way, the stochastic term of the model can be assumed.
 
 ## Business Performance
 
