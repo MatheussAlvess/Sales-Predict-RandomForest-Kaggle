@@ -140,6 +140,8 @@ Random Forest Regressor had the best error measures. With hyperparameter tuning 
  <img src="images/res.png" width="900" height="600">
 </p>
 
+We can observe in the plots that the residuals do not show patterns of asymmetry or that contradict the assumption of normality.
+
 ## Business Performance
 
 MAE means how much the prediction is wrong, defining upper and lower bounds and is not sensitive to outliers. MAPE means the percentage that predicted values are different when compared to real ones. 
